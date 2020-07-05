@@ -1,0 +1,17 @@
+[package]
+name = "rustars"
+version = "0.1.0"
+authors = ["Wilfried OLLIVIER <wollivier@fdn.fr>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4"
+env_logger = "0.7"
+cargo_toml = "0.8"
+clap = "2.33"
+crates_io_api = "0.6"
+tokio = { version = "0.2", features = ["full"] }
+reqwest = "0.10"
+futures = "0.3"
+futures-util = "0.3"
+hubcaps = "0.6"
