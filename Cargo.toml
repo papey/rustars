@@ -1,8 +1,11 @@
 [package]
 name = "rustars"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Wilfried OLLIVIER <wollivier@fdn.fr>"]
 edition = "2018"
+description = "A commmand line tool to star a list of Github repositories taken from dependencies of a Cargo.toml file"
+repository = "https://github.com/papey/rustars"
+license = "Unlicense"
 
 [dependencies]
 log = "0.4"
