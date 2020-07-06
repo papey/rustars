@@ -1,5 +1,7 @@
 # Rustars
 
+[![Build Status](https://drone.github.papey.fr/api/badges/papey/rustars/status.svg)](https://drone.github.papey.fr/papey/rustars)
+
 A commmand line tool to star a list of Github repositories taken from
 dependencies of a Cargo.toml file.
 

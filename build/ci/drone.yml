@@ -1,0 +1,19 @@
+kind: pipeline
+name: main
+
+steps:
+  - name: fmt
+    image: rust:1.44.1
+    commands:
+      - rustup component add rustfmt --toolchain 1.44.1-x86_64-unknown-linux-gnu
+      - cargo fmt -- --check
+
+  - name: tests
+    image: rust:1.44.1
+    commands:
+      - cargo test
+
+  - name: build
+    image: rust:1.44.1
+    commands:
+      - cargo build
