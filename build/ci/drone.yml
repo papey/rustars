@@ -11,9 +11,9 @@ steps:
   - name: tests
     image: rust:1.44.1
     commands:
-      - cargo test
+      - cargo test -j 1
 
   - name: build
     image: rust:1.44.1
     commands:
-      - cargo build
+      - cargo build -j 1
