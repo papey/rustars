@@ -78,7 +78,7 @@ pub fn deps_from_crates_io(manifest: Manifest) -> Result<Vec<CrateResponse>, Err
     )?;
 
     // init a runtime for async task
-    let mut rt = runtime::Runtime::new()?;
+    let rt = runtime::Runtime::new()?;
 
     let tasks = async {
         // init tasks vector

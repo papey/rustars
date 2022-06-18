@@ -134,7 +134,7 @@ where
         .for_each(|e| error!("{}", e));
 
     // init a runtime for async task
-    let mut rt = runtime::Runtime::new().unwrap();
+    let rt = runtime::Runtime::new().unwrap();
 
     // star repos using futures
     // create tasks
