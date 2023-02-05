@@ -33,7 +33,7 @@ fn main() {
 
     // parse args
     let matches = App::new("Rustars")
-        .version("0.1")
+        .version("0.1.2")
         .author("Wilfried OLLIVIER")
         .about(
             "A commmand line tool to star a list of Github repositories taken from
